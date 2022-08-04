@@ -36,7 +36,12 @@
     <Compile Include="gamesessions\migrations\__init__.py" />
     <Compile Include="gamesessions\models.py" />
     <Compile Include="gamesessions\tests.py" />
-    <Compile Include="gamesessions\views.py" />
+    <Compile Include="gamesessions\urls.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gamesessions\views.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="gamesessions\__init__.py" />
     <Compile Include="manage.py" />
     <Compile Include="config\__init__.py" />
@@ -50,16 +55,11 @@
     <Folder Include="gamesessions\migrations\" />
     <Folder Include="gamesessions\templates\" />
     <Folder Include="gamesessions\templates\gamesessions\" />
+    <Folder Include="static_files\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="gamesessions\templates\gamesessions\index.html" />
     <Content Include="requirements.txt" />
-    <Content Include="db.sqlite3" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="readme.html">
-      <SubType>WebBrowser</SubType>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
