@@ -1,5 +1,5 @@
 """
-Definition of urls for gamemanager.
+Definition of urls for config.
 """
 
 from datetime import datetime
@@ -9,4 +9,5 @@ from django.contrib.auth.views import LoginView, LogoutView
 
 
 urlpatterns = [
+    path('admin/', admin.site.urls),
 ]

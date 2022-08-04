@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.2.32526.322
+VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "gamemanager", "gamemanager\gamemanager.pyproj", "{DB0FBB10-9E91-437D-8FBF-D0D12C0CC085}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "config", "config.pyproj", "{D3B24FFF-674D-4D29-BB59-9FB2C19005EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DB0FBB10-9E91-437D-8FBF-D0D12C0CC085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DB0FBB10-9E91-437D-8FBF-D0D12C0CC085}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DB0FBB10-9E91-437D-8FBF-D0D12C0CC085}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DB0FBB10-9E91-437D-8FBF-D0D12C0CC085}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3B24FFF-674D-4D29-BB59-9FB2C19005EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3B24FFF-674D-4D29-BB59-9FB2C19005EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3B24FFF-674D-4D29-BB59-9FB2C19005EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3B24FFF-674D-4D29-BB59-9FB2C19005EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {B19A1336-4008-4FCE-923D-4BBC1A1C7085}
+		SolutionGuid = {D094C3BA-09BB-4B0F-B13A-EFF4319939B0}
 	EndGlobalSection
 EndGlobal

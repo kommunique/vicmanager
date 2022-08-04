@@ -2,14 +2,14 @@
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
-    <Name>gamemanager</Name>
-    <RootNamespace>gamemanager</RootNamespace>
+    <Name>config</Name>
+    <RootNamespace>config</RootNamespace>
     <InterpreterId>MSBuild|env|$(MSBuildProjectFullPath)</InterpreterId>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>db0fbb10-9e91-437d-8fbf-d0d12c0cc085</ProjectGuid>
+    <ProjectGuid>d3b24fff-674d-4d29-bb59-9fb2c19005ef</ProjectGuid>
     <ProjectHome>.</ProjectHome>
     <ProjectTypeGuids>{5F0BE9CA-D677-4A4D-8806-6076C0FAAD37};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
     <StartupFile>manage.py</StartupFile>
@@ -18,7 +18,7 @@
     <WorkingDirectory>.</WorkingDirectory>
     <WebBrowserUrl>http://localhost</WebBrowserUrl>
     <LaunchProvider>Django launcher</LaunchProvider>
-    <DjangoSettingsModule>gamemanager.settings</DjangoSettingsModule>
+    <DjangoSettingsModule>config.settings</DjangoSettingsModule>
     <OutputPath>.</OutputPath>
     <SuppressCollectPythonCloudServiceFiles>true</SuppressCollectPythonCloudServiceFiles>
   </PropertyGroup>
@@ -39,13 +39,13 @@
     <Compile Include="gamesessions\views.py" />
     <Compile Include="gamesessions\__init__.py" />
     <Compile Include="manage.py" />
-    <Compile Include="gamemanager\__init__.py" />
-    <Compile Include="gamemanager\settings.py" />
-    <Compile Include="gamemanager\urls.py" />
-    <Compile Include="gamemanager\wsgi.py" />
+    <Compile Include="config\__init__.py" />
+    <Compile Include="config\settings.py" />
+    <Compile Include="config\urls.py" />
+    <Compile Include="config\wsgi.py" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="gamemanager\" />
+    <Folder Include="config\" />
     <Folder Include="gamesessions\" />
     <Folder Include="gamesessions\migrations\" />
     <Folder Include="gamesessions\templates\" />
@@ -55,6 +55,11 @@
     <Content Include="gamesessions\templates\gamesessions\index.html" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="readme.html">
+      <SubType>WebBrowser</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">

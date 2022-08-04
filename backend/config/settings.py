@@ -1,5 +1,5 @@
 """
-Django settings for gamemanager project.
+Django settings for config project.
 
 Based on 'django-admin startproject' using Django 2.1.2.
 
@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '7eea34b3-c894-4acf-9ed2-34c9a7c21cca'
+SECRET_KEY = '8690f097-cc66-485c-b511-b8a4db71a9b7'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -52,7 +52,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'gamemanager.urls'
+ROOT_URLCONF = 'config.urls'
 
 # Template configuration
 # https://docs.djangoproject.com/en/2.1/topics/templates/
@@ -72,7 +72,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'gamemanager.wsgi.application'
+WSGI_APPLICATION = 'config.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 DATABASES = {
